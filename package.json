@@ -1,0 +1,31 @@
+{
+  "name": "link_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "debug": "nodemon index.js --inspect",
+    "test": "test"
+  },
+  "author": "Henry Golden",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-generator": "^4.16.0",
+    "express-jsonschema": "^1.1.6",
+    "morgan": "^1.9.0",
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "pg-promise": "^8.4.4",
+    "pr-express-body-parser": "^0.1.4",
+    "sequelize": "^4.37.10",
+    "sequelize-cli": "^4.0.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
